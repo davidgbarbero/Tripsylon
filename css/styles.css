@@ -1,0 +1,104 @@
+body {
+    margin-top: 50px; 
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+#presentation {
+    text-align: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background: url('../media/cover.jpg') no-repeat center center scroll;
+    padding: 100px 0;
+    height: 600px;
+}
+
+
+.text-center {
+	margin: 0 auto;
+    color: #c1a97e;
+    padding: 10% 10% 5% 10%;
+    font-size: 5em;
+}
+
+
+
+
+/*Background video container */
+
+#video-landing {
+    position: relative;
+    width:100%;
+    overflow: hidden;
+  color: white;
+  padding:5% 10%;
+}
+
+#video-landing video {
+  position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    height:auto;
+    width:auto;
+    z-index: -100;
+}
+
+#video-landing h2{
+ 	font-size: 2em;
+    text-transform: uppercase;
+    color: #c1a97e;
+}
+
+#video-content{
+    text-align: justify;
+    border: 1px dotted #c1a97e;
+    height: 100%;
+    padding: 10% 20% 10% 20%;
+}
+
+
+@media (max-width: 768px) {
+  #video-content {
+    padding: 5% 5% 5% 5%;
+  }
+  #video-landing h2{
+ 	font-size: 1.4em;
+    }
+    #video-content p{
+        font-size: 0.8em;
+    }
+    .text-center {
+        font-size: 3em;
+    }
+    #presentation {
+        height: 300px;
+    }
+  }
+
+/* Footer Styles */ 
+footer{
+    background-color: #333;
+}
+
+footer p{
+    color: white;
+    text-align: center;
+}
+
+
+
+.btn-primary-outline {
+  background-color: transparent;
+  border-color: #ccc;
+  color: white;
+}
+
+.btn-primary-outline:hover {
+  color: #c1a97e;
+  background-color: rgba(255, 255, 255, 0.5);
+}
